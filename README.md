@@ -1,21 +1,32 @@
-# SenopaTEA
-DevOps Agents
+# ⚔️ SenopaTEA
 
-# 🤖 Autonomous Dev Team Framework
+> *The autonomous developer army, forged by zhayyn.*
 
-Framework ini digunakan untuk menginisiasi tim developer AI otonom.
+Dalam bayang-bayang arsitektur sistem, **Senopati** adalah sang panglima—entitas yang memegang kendali tanpa perlu terlihat. *Framework* ini adalah manifestasi dari taktik tersebut. 
 
-## 📂 Struktur Direktori
+**TEA** (*The Evilsign Army*) beroperasi sebagai pasukan otonom di garis depan:
+*Executive Virtual Intelligence & Logical System Integration for Generative Networks.*
+
+Mereka tidak bertanya. Mereka hanya mengeksekusi instruksi arsitektur menjadi sebuah mahakarya.
+
+---
+
+## 🤖 The Framework
+
+Sistem ini memecah identitas AI tunggal menjadi sebuah unit taktis (@pm, @engineer, @qa, @devops) yang beroperasi secara asinkron di dalam *Agentic IDE*.
+
+### 📂 Topologi Direktori
 
 ```text
 /
 ├── .agents/
-│   ├── agents.md             # Definisi identitas dan peran (@pm, @engineer, dll)
-│   └── skills/
-│       ├── write_specs.md    # Skill untuk membuat technical spec
-│       ├── generate_code.md  # Skill untuk menulis kode
-│       ├── audit_code.md     # Skill untuk QA
-│       └── deploy_app.md     # Skill untuk devops
-├── app_build/                # Direktori tempat AI menyimpan hasil kodenya
-├── production_artifacts/     # Tempat menyimpan Technical_Specification.md
-└── startcycle.md             # Trigger eksekusi utama
+│   ├── agents.md             # Konfigurasi identitas, protokol, dan batasan agen
+│   ├── skills/
+│   │   ├── write_specs.md    # Protokol PM: Analisis dan penyusunan arsitektur
+│   │   ├── generate_code.md  # Protokol Engineer: Konstruksi kode
+│   │   ├── audit_code.md     # Protokol QA: Audit logika dan penambalan celah
+│   │   └── deploy_app.md     # Protokol DevOps: Automasi deployment
+│   └── workflows/
+│       └── startcycle.md     # Trigger inisiasi rantai komando
+├── app_build/                # Area isolasi perakitan kode
+└── production_artifacts/     # Brankas penyimpan spesifikasi teknis
