@@ -7,6 +7,7 @@ Framework ini digunakan untuk menginisiasi tim developer AI otonom.
 
 ## 📂 Struktur Direktori
 
+```text
 /
 ├── .agents/
 │   ├── agents.md             # Definisi identitas dan peran (@pm, @engineer, dll)
